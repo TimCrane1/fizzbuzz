@@ -4,11 +4,9 @@ while (startOver == 1) {
    userNumber = +userNumber;
    if (isNaN(userNumber)) {
      alert("Make sure your entry is a number!");
-     startOver = 1;
    }
    else if (userNumber % 1 != 0) {
      alert("Let's keep it simple, pick a number without a decimal.");
-     startOver = 1;
    }
    else {startOver = 0;
    }
